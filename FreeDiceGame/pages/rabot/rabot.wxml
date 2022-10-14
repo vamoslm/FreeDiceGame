@@ -1,0 +1,98 @@
+<view class="subpage">
+  <image src="/pages/image/subpage.png" style="width: 756rpx; height: 1472rpx; display: inline-block; box-sizing: border-box; position: relative; left: 0rpx; top: 0rpx"></image>
+</view>
+<view class="player">
+  <text class="player">机器人九宫格</text>
+</view>
+<view class="player1_zone">
+  <view class="zone1">
+    <view bindtap="player1k1">
+      <image src="/pages/image/{{player1k11}}point.jpg"></image>
+    </view>
+    <view bindtap="player1e1">
+      <image src="/pages/image/{{player1e11}}point.jpg"></image>
+    </view>
+    <view bindtap="player1x1">
+      <image src="/pages/image/{{player1x11}}point.jpg"></image>
+    </view>
+  </view>
+  <view class="zone2">
+    <view bindtap="player1k2">
+      <image src="/pages/image/{{player1k22}}point.jpg"></image>
+    </view>
+    <view bindtap="player1e2">
+      <image src="/pages/image/{{player1e22}}point.jpg"></image>
+    </view>
+    <view bindtap="player1x2">
+      <image src="/pages/image/{{player1x22}}point.jpg"></image>
+    </view>
+  </view>
+  <view class="zone3">
+    <view bindtap="player1k3">
+      <image src="/pages/image/{{player1k33}}point.jpg"></image>
+    </view>
+    <view bindtap="player1e3">
+      <image src="/pages/image/{{player1e33}}point.jpg"></image>
+    </view>
+    <view bindtap="player1x3">
+      <image src="/pages/image/{{player1x33}}point.jpg"></image>
+    </view>
+  </view>
+</view>
+
+<view style="width: 750rpx; height: 62rpx; display: block; box-sizing: border-box" class="tip_text">
+  <text style="position: relative; left: 207rpx; top: 5rpx; font-size: 40rpx">K</text>
+  <text style="position: relative; left: 340rpx; top: 4rpx; font-size: 40rpx">E</text>
+  <text style="position: relative; left: 475rpx; top: 0rpx; font-size: 40rpx">X</text>
+</view>
+
+<view class="tools" style="width: 750rpx; height: 330rpx; display: flex; box-sizing: border-box">
+  <button type="primary" size="mini" bindtap="btnStart" style="width: 125rpx; height: 57rpx; display: block; box-sizing: border-box; left: 2rpx; top: 0rpx; position: relative">开始</button>
+  <image src="{{img[index].index}}" style="width: 144rpx; height: 144rpx; display: flex; box-sizing: border-box"></image>
+  <button type="primary" size="mini" bindtap="btnEnd" style="width: 125rpx; height: 57rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">结束</button>
+</view>
+
+<view style="width: 750rpx; height: 62rpx; display: block; box-sizing: border-box" class="tip_text">
+  <text style="position: relative; left: 207rpx; top: 5rpx; font-size: 40rpx">K</text>
+  <text style="position: relative; left: 340rpx; top: 4rpx; font-size: 40rpx">E</text>
+  <text style="position: relative; left: 475rpx; top: 0rpx; font-size: 40rpx">X</text>
+</view>
+
+<view class="player2_zone">
+  <view class="zone1">
+    <view bindtap="playerk1">
+     <image src="/pages/image/{{player2k1}}point.jpg"></image>
+    </view>
+    <view bindtap="playere1">
+      <image src="/pages/image/{{player2e1}}point.jpg"></image>
+    </view>
+    <view bindtap="playerx1">
+      <image src="/pages/image/{{player2x1}}point.jpg"></image>
+    </view>
+  </view>
+  <view class="zone2">
+    <view bindtap="playerk2">
+      <image src="/pages/image/{{player2k2}}point.jpg"></image>
+    </view>
+    <view bindtap="playere2">
+      <image src="/pages/image/{{player2e2}}point.jpg"></image>
+    </view>
+    <view bindtap="playerx2">
+      <image src="/pages/image/{{player2x2}}point.jpg"></image>
+    </view>
+  </view>
+  <view class="zone3">
+    <view bindtap="playerk3">
+      <image src="/pages/image/{{player2k3}}point.jpg"></image>
+    </view>
+    <view bindtap="playere3">
+      <image src="/pages/image/{{player2e3}}point.jpg"></image>
+    </view>
+    <view bindtap="playerx3">
+      <image src="/pages/image/{{player2x3}}point.jpg"></image>
+    </view>
+  </view>
+</view>
+<view class="player">
+  <text class="player">玩家九宫格</text>
+</view>

@@ -1,0 +1,130 @@
+.subpage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.zone1 view{
+  width: 150rpx;
+  height: 150rpx;
+  text-align: center;
+  line-height: 150rpx;
+  z-index: 1;
+}
+.zone1 view:nth-child(1){
+  background-color: rgb(211, 207, 202);
+  border: solid;
+}
+.zone1 view:nth-child(2){
+  background-color: rgb(211, 207, 202);
+  border-top: solid;
+  border-bottom: solid;
+}
+.zone1 view:nth-child(3){
+  background-color: rgb(211, 207, 202);
+  border: solid;
+}
+.zone1 {
+  display: flex;
+  justify-content: center; /**内容居中*/
+}
+.zone2 view{
+  width: 150rpx;
+  height: 150rpx;
+  text-align: center;
+  line-height: 150rpx;
+  z-index: 1;
+}
+.zone2 view:nth-child(1){
+  background-color: rgb(211, 207, 202);
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+}
+.zone2 view:nth-child(2){
+  background-color: rgb(211, 207, 202);
+  border-bottom: solid;
+}
+.zone2 view:nth-child(3){
+  background-color: rgb(211, 207, 202);
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+}
+.zone2 {
+  display: flex;
+  justify-content: center; /**内容居中*/
+}
+.zone3 view{
+  width: 150rpx;
+  height: 150rpx;
+  text-align: center;
+  line-height: 150rpx;
+  z-index: 1;
+}
+.zone3 view:nth-child(1){
+  background-color: rgb(211, 207, 202);
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+}
+.zone3 view:nth-child(2){
+  background-color: rgb(211, 207, 202);
+  border-bottom: solid;
+}
+.zone3 view:nth-child(3){
+  background-color: rgb(211, 207, 202);
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+}
+.zone3 {
+  display: flex;
+  justify-content: center; /**内容居中*/
+}
+.player {
+  display: flex;
+  justify-content: center; /**内容居中*/
+  font-size: 15px;
+  /* 字体颜色 */
+  color: rgb(0, 0, 0);
+  /* 字体风格-粗细 */
+  font-weight: bold;
+  z-index: 1;
+}
+.tools {
+  /* 弹性盒子 */
+  display: flex;
+ /* 垂直方向的对齐方式 */
+  align-items: center;
+  height: 300rpx;
+  z-index: 1;
+}
+.tools image {
+    /* 弹性盒子 */
+    display: flex;
+   /* 垂直方向的对齐方式 */
+    align-items: center;
+    height: 100rpx;
+    width: 100rpx;
+    z-index: 1;
+}
+.zone1 image {
+    height: 150rpx;
+    width: 150rpx;
+    z-index: 1;
+}
+.zone2 image {
+  height: 150rpx;
+  width: 150rpx;
+  z-index: 1;
+}
+.zone3 image {
+  height: 150rpx;
+  width: 150rpx;
+  z-index: 1;
+}
+.tip_text {
+  font-weight: bold;
+  z-index: 1;
+}

@@ -1,0 +1,7 @@
+<!--pages/rules/rules.wxml-->
+<scroll-view class="rule_images" scroll-y="true">
+  <image src="/pages/image/rule1.png" style="width: 752rpx; height: 530rpx; display: inline-block; box-sizing: border-box"></image>
+  <image src="/pages/image/rule2.jpg" style="width: 752rpx; height: 530rpx; display: inline-block; box-sizing: border-box"></image>
+  <image src="/pages/image/rule3.jpg" style="width: 752rpx; height: 530rpx; display: inline-block; box-sizing: border-box"></image>
+  <image src="/pages/image/rule4.jpg" style="width: 752rpx; height: 530rpx; display: inline-block; box-sizing: border-box"></image>
+</scroll-view>

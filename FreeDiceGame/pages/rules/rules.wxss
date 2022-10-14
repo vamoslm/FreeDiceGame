@@ -1,0 +1,13 @@
+/* pages/rules/rules.wxss */
+.rule_text {
+  /* 字体大小 */
+  font-size: 30px;
+  /* 字体颜色 */
+  color: rgb(0, 0, 0);
+  /* 字体风格-粗细 */
+  font-weight: bold;
+  letter-spacing: 15rpx;
+}
+.rule_images {
+  height: 100%;
+}

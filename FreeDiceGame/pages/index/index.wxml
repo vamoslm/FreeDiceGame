@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="mainpage">
+  <image src="/pages/image/mainpage.png" style="width: 754rpx; height: 1509rpx; display: inline-block; box-sizing: border-box; position: relative; left: 0rpx; top: 0rpx; bottom: 0rpx;"></image>
+</view>
+<view class="buttons">
+    <button type="primary" bindtap="goTolocal" id="local_button" style="position: relative; left: 0rpx; top: 651rpx">本地双人</button>
+    <button type="primary" bindtap="goTorabot" id="rule_button" style="position: relative; left: 0rpx; top: 729rpx">人机对战</button>
+    <button type="primary" bindtap="goToonline" id="rule_button" style="position: relative; left: 0rpx; top: 808rpx">匹配对战</button>
+    <button type="primary" bindtap="goTorule" id="rule_button" style="position: relative; left: 0rpx; top: 887rpx">游戏规则</button>
+</view>
